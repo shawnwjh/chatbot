@@ -1,0 +1,136 @@
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100vw;
+  height: 80vh;
+}
+
+#chatContainer {
+  width: 80vw;
+}
+
+#fileTitle {
+  width: 90%;
+  height: 3vh;
+  margin: auto;
+  font-size: x-large;
+}
+
+#fileList {
+  width: 20vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+  margin-bottom: 4vh;
+}
+
+.noFiles {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fileBtnContainer {
+  width: 80%;
+  height: 7vh;
+}
+
+.fileBtn {
+  width: 100%;
+  margin: 10px auto;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.Me {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.Chatterbot {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#chatlog {
+  height: 70vh;
+  width: 80%;
+  margin: 4vh auto;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  overflow-anchor: none;
+}
+
+::-webkit-scrollbar {
+  background: none;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 237, 41, 0.425);
+  border-radius: 10px;
+}
+
+#uploadContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#fileUpload {
+  margin-bottom: 5%;
+}
+
+#question {
+  width: 80%;
+  height: fit-content;
+  padding: 10px;
+}
+
+#queryContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 4%;
+  margin-bottom: 5%;
+}
+
+button {
+  height: fit-content;
+}
+
+#response {
+  width: 80%;
+  height: 20%;
+}
+
+.active {
+  border-color: rgba(255, 237, 41, 0.425);
+  border-width: 2px;
+}
+
+#fileLoadingIcon {
+  width: 2vw;
+}
+
+#chatLoading {
+  display: flex;
+  justify-content: center;
+  overflow-anchor: auto;
+}
+
+#chatLoadingIcon {
+  width: 3vw;
+}

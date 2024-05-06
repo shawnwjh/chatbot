@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "summarizer"
+version = "0.1.0"
+description = ""
+authors = ["shawnwjh <wong.shawnjh@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.110.3"
+uvicorn = "^0.29.0"
+llama-index = "^0.10.33"
+python-multipart = "^0.0.9"
+llama-index-vector-stores-milvus = "^0.1.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
